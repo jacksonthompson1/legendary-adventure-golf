@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {                     /* Sets properties for everything */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a {                  /*Changes the list items and the links to the desired font and settings*/
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+figure > h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    text-shadow: 2px 2px #422b2d;
+    color: rgb(231, 231, 231);
+}
+
+#header4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 2.5%;
+    min-height: 8vh;
+    background-color: #553739;
+}
+
+.btn4 {
+    padding: 10px 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000;
+    color: white;
+    background-color: #955e42;
+    transition: all 0.3s ease 0s;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btn4:hover {
+    padding: 15px 40px;
+    border-style: none;
+    background-color: #553739;
+    border-style: groove;
+    border-width: 1px;
+    transition: all 0.3s ease 0s;
+}
+
+.logo4 {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    max-width: 75px;
+}
+
+.nav-links4 {
+    list-style: none;
+}
+
+.nav-links4 li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.nav-links4 li a{
+    transition: all 0.1s ease-in 0s;
+}
+
+.nav-links4 li a:hover{
+    font-size: 30px;
+    color: #ad6c4c;
+} 
+
+.burg3r {
+    display: none;
+}
+
+
+figure > h1 {
+    transition: ease all .5s;
+}
+
+@media screen and (max-width:1150px) {
+    figure > h1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:615px) {
+    .btn4 {
+        display: none;
+    }
+}
